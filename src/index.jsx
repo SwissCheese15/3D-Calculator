@@ -6,7 +6,9 @@ import Experience from './Experience.jsx'
 const root = ReactDOM.createRoot(document.querySelector('#root'))
 
 root.render(
+
     <Canvas className='canvas'
+        shadows
         camera={ {
             fov: 45,
             near: 0.1,

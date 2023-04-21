@@ -1,11 +1,20 @@
 import { Box, Cylinder, RoundedBox, Center, Text3D, Html } from "@react-three/drei"
 import { useFrame } from "@react-three/fiber"
 import { useEffect, useRef, useState } from "react"
-import Symbol from "./Symbol/Symbol"
 import { useControls } from "leva"
+import Symbol from "./Symbol/Symbol"
 import "./style.css"
 
 export default function Calculator(props) {
+
+    const controls = useControls({
+        brightness: {
+            value: 4,
+            min: 1,
+            max: 10,
+            step: 1
+        }
+    })
 
     let color = props.color
 
@@ -306,7 +315,7 @@ export default function Calculator(props) {
             <rectAreaLight
             width={ ((calcWidth - gap * 2) - frame) - 0.3}
             height={ ((calcHeight - (buttonRadius * 10 + gap * 7)) - frame) - 0.2}
-            intensity={ 3 }
+            intensity={ controls.brightness }
             color={ "white" }
             position-z={0.3}
             />
