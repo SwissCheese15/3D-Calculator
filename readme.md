@@ -1,4 +1,4 @@
-## 3D Scene of Macbook with Webpage 💻
+## Calculator Logic and 3D Interface 
 
 Safari Version is currently under Construction for Layout issues 👷🚧⚠️
 
