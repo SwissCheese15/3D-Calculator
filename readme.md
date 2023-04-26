@@ -4,25 +4,28 @@ Visit the live Demo at https://3d-calculator.vercel.app
 
 A 3D "homage" to the build in iOS Calculator.
 
-- Calculator logic javascript
 - Three.js Scene
-- Color Themes with Leva GUI
+- Calculator logic (javascript)
+- Lasting Color Theme
+
+## To-Do
+- Handle large number edge cases
 
 ## Making of
 
 ### Logic Playground
 
-<img height="350" alt="Bildschirmfoto 2023-04-26 um 13 18 29" src="https://user-images.githubusercontent.com/110164826/234560676-3cf61c07-cb14-413a-8d73-c5c493ca85b8.png">
+<img height="350" alt="ugly js calculator" src="https://user-images.githubusercontent.com/110164826/234560676-3cf61c07-cb14-413a-8d73-c5c493ca85b8.png">
 
 
 ### Accidental mastercard logo
 
 <p float="left">
 
-<img width="400" height="350" alt="Bildschirmfoto 2023-04-26 um 13 30 28" src="https://user-images.githubusercontent.com/110164826/234563085-a8b64444-f9c5-4d4d-8014-b019c795eca0.png">
+<img width="400" height="350" alt="image of rounded box geometry" src="https://user-images.githubusercontent.com/110164826/234563085-a8b64444-f9c5-4d4d-8014-b019c795eca0.png">
 
 
-<img width="400" height="350" alt="Bildschirmfoto 2023-04-05 um 12 35 46" src="https://user-images.githubusercontent.com/110164826/234562188-00f0112a-e901-444b-a79f-98798a1ac55b.png">
+<img width="400" height="350" alt="3d shape with two buttons" src="https://user-images.githubusercontent.com/110164826/234562188-00f0112a-e901-444b-a79f-98798a1ac55b.png">
 
 </p>
 
@@ -30,7 +33,7 @@ A 3D "homage" to the build in iOS Calculator.
 
 <p float="left">
 
-<img width="400" height="350" alt="Bildschirmfoto 2023-04-05 um 12 42 47" src="https://user-images.githubusercontent.com/110164826/234564053-53fff72b-3585-4fb8-abe7-67449c387074.png">
+<img width="400" height="350" alt="rounded box with cylinders" src="https://user-images.githubusercontent.com/110164826/234564053-53fff72b-3585-4fb8-abe7-67449c387074.png">
 
 <img width="400" height="350" alt="Bildschirmfoto 2023-04-05 um 12 42 47" src="https://user-images.githubusercontent.com/110164826/234564319-01416bc3-5005-4ba3-8ae2-11688c93dbfc.png">
 
